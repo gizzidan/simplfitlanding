@@ -280,7 +280,7 @@ hr {
 	background:
 		linear-gradient(rgba(0, 250, 235, 0.7),rgba(0, 0, 113, 0.2)),
 		url('../img/header.jpg') no-repeat center top;
-	padding-top: 180px;
+	padding-top: 190px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -312,6 +312,8 @@ hr {
 
 #h h2 {
 	color: white;
+	font-family: "Raleway", sans-serif;
+	font-weight: 100;
 }
 
 #h h3 {
