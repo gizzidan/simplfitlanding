@@ -13,15 +13,17 @@
 
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Gentium+Basic|Open+Sans|Raleway:100,200,300,400|Shadows+Into+Light|Space+Mono');
 
-* { 
+
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -31,15 +33,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -89,10 +91,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -182,7 +184,7 @@ hr {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 16px;
@@ -275,14 +277,16 @@ hr {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background:
+		linear-gradient(rgba(0, 241, 244, 0.5), rgba(0, 0, 244, 0.6)),
+		url('../img/header.jpg') no-repeat center top;
 	padding-top: 200px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -300,8 +304,9 @@ hr {
 }
 
 #h h1 {
-	font-weight: 900;
-	font-size: 60px;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 80px;
+	letter-spacing: 2px;
 	color: white;
 }
 
@@ -309,23 +314,30 @@ hr {
 	color: white;
 }
 
-.go { 
-	height: 60px; 
-	width: 60px; 
-	display: block; 
-	transition: all 1s ease; 
-	-moz-transition: all 1s ease; 
+#h h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	font-weight: 100;
+	color: #d4d4d4;
+}
+
+.go {
+	height: 60px;
+	width: 60px;
+	display: block;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
 	-webkit-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	padding-top: 170px;
 	padding-bottom: 15px;
 }
 
-.go:hover, .go:focus { 
-	transform: translate(0, -15px); 
-	-webkit-transform: translate(0, -15px); 
-	-o-transform: translate(0, -15px); 
-	-moz-transform: translate(0, -15px); 
+.go:hover, .go:focus {
+	transform: translate(0, -15px);
+	-webkit-transform: translate(0, -15px);
+	-o-transform: translate(0, -15px);
+	-moz-transform: translate(0, -15px);
 }
 
 .go i {
@@ -434,7 +446,7 @@ hr {
 	min-height: 600px;
 	width: 100%;
 	color: white;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -503,7 +515,7 @@ hr {
 	background: #D2527F;
 }
 
-@media screen and (max-width: 740px){ 
+@media screen and (max-width: 740px){
 .f-r {
 	text-align: center;
 }
