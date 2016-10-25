@@ -348,6 +348,18 @@ hr {
 	font-size: 40px;
 }
 
+#cta {
+	background: #2f2f2f;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#cta h2 {
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+
 /* Grey Section */
 #g {
 	background: #f2f2f2;
@@ -360,7 +372,7 @@ hr {
 	height: 120px;
 	margin: 0 auto;
 	border-radius: 50%;
-	background-color: #D2527F;
+	background-color: #3498db;
 	position: relative;
 }
 
