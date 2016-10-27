@@ -438,6 +438,37 @@ hr {
 	color: #D2527F;
 }
 
+.features2 {
+	padding: 10px;
+}
+
+.features2:hover {
+	background: #f2f2f2;
+	cursor: pointer;
+}
+
+.features2 p {
+	font-size: 16px;
+	color: #a0a0a0;
+	line-height: 26px;
+}
+
+.features2 h3 {
+	color: #3498db;
+}
+
+.f-t h2, i {
+	color: #3498db;
+}
+
+.f-t2 h2, i {
+	color: #D2527F;
+}
+
+.chevrondown i {
+	color: #3498db;
+}
+
 /* Showcase Conf */
 #showcase {
 	padding-bottom: 50px;
