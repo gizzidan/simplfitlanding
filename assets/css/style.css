@@ -399,7 +399,7 @@ hr {
 }
 
 .btn-android {
-	background: #52B3D9;
+	background: #1E88E5;
 	border-radius: 30px;
 	padding: 16px 32px 20px;
 	color: white;
@@ -457,11 +457,11 @@ hr {
 	color: #3498db;
 }
 
-.f-t h2, i {
+.f-t h2, .f-t i {
 	color: #3498db;
 }
 
-.f-t2 h2, i {
+.f-t2 h2, .f-t2 i {
 	color: #D2527F;
 }
 
@@ -471,9 +471,33 @@ hr {
 
 /* Showcase Conf */
 #showcase {
-	padding-bottom: 50px;
-	padding-top: 50px;
-	background: #D2527F;
+	background:
+		linear-gradient(rgba(7, 45, 96, 0.8),rgba(50, 3, 48, 0.63)),
+		url('../img/man in sky.jpeg') no-repeat center top;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 800px;
+	width: 100%;
+	color: white;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+#showcase h4 {
+	font-weight: bold;
+}
+
+#showcase p {
 	color: white;
 }
 
@@ -592,6 +616,10 @@ hr {
 	background: #D2527F;
 }
 
+
+.social i, .social hr {
+	color: #3498db;
+}
 @media screen and (max-width: 740px){
 .f-r {
 	text-align: center;
